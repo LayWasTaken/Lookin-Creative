@@ -1,0 +1,20 @@
+*
+
+# Configs
+config/jei/world
+!config
+!config/**
+!config/avaritia/singularities
+
+!defaultconfigs
+!defaultconfigs/**
+
+
+# Kubejs Scripts
+kubejs/probe
+!kubejs
+!kubejs/**
+
+# Others
+!.gitignore
+!panorama.dat

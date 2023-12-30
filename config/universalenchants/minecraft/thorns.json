@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_chest",
+    "apotheosis:chestplate_tome",
+    "$minecraft:universal_enchants_horse_armor",
+    "$minecraft:universal_enchants_shield"
+  ],
+  "incompatible": [
+    "twilightforest:chill_aura",
+    "apotheosis:icy_thorns",
+    "twilightforest:fire_react"
+  ]
+}

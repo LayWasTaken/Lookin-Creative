@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "ae2:annihilation_plane",
+    "apotheosis:pickaxe_tome",
+    "twilightforest:block_and_chain"
+  ],
+  "incompatible": [
+    "minecraft:fortune",
+    "minecraft:luck_of_the_sea",
+    "minecraft:looting"
+  ]
+}

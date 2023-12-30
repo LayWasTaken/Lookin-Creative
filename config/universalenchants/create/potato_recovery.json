@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:bow",
+    "apotheosis:other_tome",
+    "apotheosis:bow_tome",
+    "create:potato_cannon"
+  ],
+  "incompatible": []
+}

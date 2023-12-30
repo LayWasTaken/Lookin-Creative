@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "minecraft:shears",
+    "ae2:annihilation_plane",
+    "apotheosis:pickaxe_tome",
+    "twilightforest:block_and_chain",
+    "botania:manasteel_shears",
+    "botania:elementium_shears",
+    "enderitemod:enderite_shears",
+    "alloyed:steel_shears"
+  ],
+  "incompatible": [
+    "minecraft:silk_touch"
+  ]
+}

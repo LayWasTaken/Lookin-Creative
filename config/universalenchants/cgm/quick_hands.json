@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:cgm_gun",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": [
+    "cgm:reclaimed"
+  ]
+}
