@@ -27,11 +27,11 @@
 	#Note: Any changes to villagers requires a full reboot to be applied due to how Minecraft/Forge registers trades.
 	[common.villagers]
 		#Whether the wandering trader will have additional trades that allow you to buy misc items with money.
-		addCustomWanderingTrades = false
+		addCustomWanderingTrades = true
 		#Whether the banker villager profession will have any registered trades. The banker sells Lightman's Currency items for coins.
-		addBanker = false
+		addBanker = true
 		#Whether the cashier villager profession will have any registered trades.. The cashier sells an amalgamation of vanilla traders products for coins.
-		addCashier = false
+		addCashier = true
 
 		#Settings Related to other Villagers
 		[common.villagers.other_traders]
@@ -52,17 +52,17 @@
 	#Input 'minecraft:air' to not spawn loot of that tier (so that you can use higher-tier spawn rates without the presence of lower-tier loot).
 	[common.loot_customization]
 		#T1 loot item. Used for T1-T6 entity & chest loot drops.
-		lootItemT1 = "minecraft:air"
+		lootItemT1 = "lightmanscurrency:coin_copper"
 		#T2 loot item. Used for T2-T6 entity & chest loot drops.
-		lootItemT2 = "minecraft:air"
+		lootItemT2 = "lightmanscurrency:coin_iron"
 		#T3 loot item. Used for T3-T6 entity & chest loot drops.
-		lootItemT3 = "lightmanscurrency:coin_copper"
+		lootItemT3 = "lightmanscurrency:coin_gold"
 		#T4 loot item. Used for T4-T6 entity & chest loot drops.
-		lootItemT4 = "lightmanscurrency:coin_iron"
+		lootItemT4 = "lightmanscurrency:coin_emerald"
 		#T5 loot item. Used for T5-T6 entity & chest loot drops.
-		lootItemT5 = "lightmanscurrency:coin_gold"
+		lootItemT5 = "lightmanscurrency:coin_diamond"
 		#T6 loot item. Used for T6 entity & chest loot drops.
-		lootItemT6 = "lightmanscurrency:coin_diamond"
+		lootItemT6 = "lightmanscurrency:coin_netherite"
 
 	#Entity loot settings. Accepts entity ids (i.e. minecraft:zombie)
 	[common.entity_loot]
@@ -72,7 +72,7 @@
 		enableSpawnerEntityDrops = false
 		#Whether modded machines that emulate player behaviour can trigger coin drops from entities.
 		#Set to false to help prevent coin farming.
-		allowFakePlayerTrigger = false
+		allowFakePlayerTrigger = true
 		#Entities that will occasionally drop T1 loot.
 		entityListT1 = ["minecraft:slime", "minecraft:silverfish"]
 		#Entities that will occasionally drop T1 -> T2 loot.
@@ -101,7 +101,7 @@
 	#Chest loot settings.
 	[common.chest_loot]
 		#Whether coins can spawn in chests Does not effect entity loot drops.
-		enableChestLoot = false
+		enableChestLoot = true
 		#Chests that will occasionally spawn T1 loot.
 		chestListT1 = ["minecraft:chests/underwater_ruin_small", "minecraft:chests/underwater_ruin_big"]
 		#Chests that will occasionally spawn T1 -> T2 loot.

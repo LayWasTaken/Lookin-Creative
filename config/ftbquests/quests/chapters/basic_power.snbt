@@ -1,0 +1,743 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basic_power"
+	group: "7AFF8B2D6E1D747C"
+	icon: "createaddition:tesla_coil"
+	id: "5D045EF1AB73DF70"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 28.0d
+			hover: [ ]
+			image: "rechiseledcreate:block/asurine_cut_small_brick"
+			rotation: 0.0d
+			width: 25.0d
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 28.0d
+			hover: [ ]
+			image: "createaddition:block/tesla_coil/lightning_new"
+			rotation: 0.0d
+			width: 25.0d
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 18.0d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "kubejs:textures/Logo_Assets/basic_power.png"
+			rotation: 0.0d
+			width: 22.4d
+			x: -10.5d
+			y: -11.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"This Chapter is dedicated to all things power related!"
+				""
+				"In this section, you'll find the basic ways to generate, store, and transfer power."
+			]
+			icon: {
+				Count: 1b
+				id: "avaritia:singularity"
+				tag: {
+					Id: "avaritia:redstone"
+				}
+			}
+			id: "4AB0DD227471FDBF"
+			rewards: [{
+				id: "3C8F065AEE4CDB80"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "4800DD5A7039B8B7"
+				title: "All Things Power!"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["42D173B9FF8D16E4"]
+			description: [
+				"Windmill provides power using renewable resources."
+				""
+				"The &9Windmill&r harness the power of the wind to provide basic power needs. It does work during the night, and must be connected to sails. The more sails the faster the windmill spins thus, making more power."
+				""
+				"The &9Alternator&r You have to connect an alternator onto the windmill bearing which converts rotational energy into power. Note: that you can connect multiple alternators onto the windmill!"
+			]
+			hide_dependency_lines: false
+			icon: "create:windmill_bearing"
+			id: "48DC9E8E9D21A2FA"
+			rewards: [
+				{
+					id: "2E06B6F7B5224A02"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "089AE645B9673F30"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Using the Wind"
+			tasks: [
+				{
+					id: "2178C8622D609A2A"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					id: "1386BA91C102E22C"
+					item: "createaddition:alternator"
+					type: "item"
+				}
+			]
+			title: "Renewable Energy"
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["42D173B9FF8D16E4"]
+			description: [
+				"&aArgument: Generator&r is a different take on basic power production."
+				"&9Attachment:&r Place your Argument: Generator into the furnace, converting it into a energy making furnace."
+				""
+				"&9Fuel:&r Placing any burnable fuel source into the generator will cause the furnace to produce energy."
+				""
+				"&9Extraction:&r Placing any energy pipe onto the bottom of the furnace will allow energy to be sucked out of the furnace"
+			]
+			icon: "ironfurnaces:augment_generator"
+			id: "11D09E918015355C"
+			rewards: [
+				{
+					id: "3E3F4483E3804F21"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4C4527E368FC896E"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Argument: Generator Starter Power Solution"
+			tasks: [{
+				id: "44999798D86177A3"
+				item: "ironfurnaces:augment_generator"
+				type: "item"
+			}]
+			title: "Generator for furnaces"
+			x: -12.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"Looking for early game power options? These are good ways to get you started with generating power."
+				""
+				"These don't produce a ton of power, but they are typically easy or cheap to get in the early game!"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:coal"
+			id: "42D173B9FF8D16E4"
+			rewards: [{
+				id: "0CE525ECCA99C748"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Starter Power"
+			tasks: [{
+				id: "55F3497E936C4885"
+				title: "Burning Fuel for Power"
+				type: "checkmark"
+			}]
+			title: "Early Game Power Options"
+			x: -10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1F81EA5E45424308"]
+			description: [
+				"These are simple pipes that can be upgraded with Pipe Upgrades."
+				""
+				"To \"extract\" power from a block, place the pipe down next to the block, and on the side that is connected, shift+right-click with the pipe wrench to set the pipe to extract."
+				""
+				"The &9Pipez&r mod also offers ways to transport items, gases, and liquids as well! Or you can make an All-In-One Pipe called the &aUniversal Pipe&r. "
+			]
+			id: "4EEAB467C722ECE7"
+			rewards: [
+				{
+					id: "4FE5FAE1AA387086"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "08460933939CF881"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "467584E3BB06E9CD"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+				{
+					id: "5299A78587A00044"
+					item: "pipez:wrench"
+					type: "item"
+				}
+			]
+			title: "&9Using Pipez: &aEnergy Pipe"
+			x: -11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1F81EA5E45424308"]
+			description: [
+				"A nice looking cable to transfer your power, fluids, items, gases."
+				""
+				"If the machine you are connecting to already pulls or pushes power, you will not need to configure the cable. Otherwise, you'll need a &9Wrench&r to configure the pipe. Crouch+right-clicking will change the cable to pull or push mode. "
+			]
+			icon: "pipez:universal_pipe"
+			id: "5C47935A3B2877FF"
+			rewards: [
+				{
+					id: "1C5C0D374EC4391D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "46E642A34AD07DB6"
+					item: "pipez:universal_pipe"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Mekanism's Energy Transfer Pipe"
+			tasks: [{
+				id: "6C4B8A2662030CB0"
+				item: "pipez:universal_pipe"
+				title: "Universal Cables"
+				type: "item"
+			}]
+			title: "&aUniversal Cable"
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"If you're looking for different ways to get power out of your machines, this is where you can find it!"
+				""
+				"There are several options, both &awired&r and &9wireless&r, for transferring power."
+			]
+			hide_dependency_lines: true
+			icon: "createaddition:tesla_coil"
+			id: "1F81EA5E45424308"
+			rewards: [{
+				id: "5C863FCC138617D2"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6D3C243268479EE9"
+				title: "Transferring Power"
+				type: "checkmark"
+			}]
+			title: "Transferring Power"
+			x: -10.5d
+			y: -2.75d
+		}
+		{
+			dependencies: ["4EEAB467C722ECE7"]
+			description: [
+				"To make your pipes extract more power, you'll want to make it an upgrade."
+				""
+				"Once you've shift+right-clicked a pipe to set it to extract, you can insert a pipe upgrade into it by right-clicking the pipe with the upgrade. You can also right-click with an empty hand and add it using the GUI!"
+				""
+				"To be able to set filters, you'll need at least an &9Advanced Pipe Upgrade&r. "
+			]
+			hide: true
+			id: "1409C17773B6A131"
+			rewards: [
+				{
+					id: "3B6AEDA1AF0D94C2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "62CFFE975A4D6072"
+					item: "pipez:basic_upgrade"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2C5A013A4D52E1A4"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "098F1B932F851616"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "pipez:basic_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pipez:improved_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pipez:advanced_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pipez:ultimate_upgrade"
+							}
+						]
+					}
+				}
+				title: "Pipe Upgrades"
+				type: "item"
+			}]
+			title: "Upgrading our Pipez"
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1F81EA5E45424308"]
+			description: [
+				"&9Flux Networks&r is a mod that aims to be the solution to all of your wireless power needs."
+				""
+				"The mod itself does not have a way to generate power, but it can store and wirelessly transmit power, even across dimensions. It can even charge your items in your inventory."
+				""
+				"You can even charge your jetpack while you are flying with this mod. HOW COOL IS THAT?"
+				""
+				"To get started with the mod, you'll need some Flux Dust. Head to bedrock level, then throw some redstone on top of a block of bedrock. Place a block of obsidian right above the floating redstone, then left click the obsidian."
+			]
+			hide: true
+			id: "35CC898E0E49FE58"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "16D31D3D55F77046"
+					item: "fluxnetworks:flux_dust"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "19CFBA244CF82C53"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CB51B7DDAE608F1"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "The Ultimate Wireless Power Solution"
+			tasks: [{
+				count: 4L
+				id: "0F0CBAF912DE462F"
+				item: "fluxnetworks:flux_dust"
+				type: "item"
+			}]
+			title: "Flux Networks"
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["35CC898E0E49FE58"]
+			description: ["In this mod, you'll need &aFlux Cores&r and &aFlux Blocks&r to craft the core parts of your network. Make a few of each!"]
+			hide: true
+			id: "1BE26A00A420DAE3"
+			rewards: [
+				{
+					count: 4
+					id: "4FA376B34C2BF04A"
+					item: "fluxnetworks:flux_dust"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "3C2BBFC2A36E722F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "5E760075B279BA71"
+					item: "fluxnetworks:flux_core"
+					type: "item"
+				}
+				{
+					id: "01B3CDAA69D1FA2F"
+					item: "fluxnetworks:flux_block"
+					type: "item"
+				}
+			]
+			title: "The \"Core\" Crafting Materials"
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1BE26A00A420DAE3"]
+			description: [
+				"The first item you'll need to start your Flux Network is a &9Flux Plug&r. "
+				""
+				"The Plug is used to \"draw\" power from the block it is attached to. Aside from a small buffer, the Plug does not store power itself, so don't worry about it zapping up all of your power."
+				""
+				"It is suggested to place the Plug on a power storage block like an energy cube. It can connect to cables, pipes, or the output of any power producing machine."
+				""
+				"To learn how to set up your first network, check the next quest!"
+			]
+			id: "5F078A574A783B02"
+			rewards: [
+				{
+					id: "46F6946231FB28A0"
+					item: "fluxnetworks:flux_block"
+					type: "item"
+				}
+				{
+					id: "615F6356856A3371"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "116BF6D4838A099B"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "00B1C30B3E10D332"
+				item: "fluxnetworks:flux_plug"
+				type: "item"
+			}]
+			title: "Starting Your Network"
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F078A574A783B02"]
+			description: [
+				"Right-click on your plug and you'll see the Flux Network UI. On the far top-right corner, click on the + button to create your first network. You'll need to set a password to create the network, but you can also set a color!"
+				""
+				"From here, you can go to the Network Selection tab to activate your network on the plug. If the plug is attached to a power source, you can now harness that power anywhere in your system using a Flux Point!"
+				""
+				"Pro Tip: You can create multiple networks if you want to have different power sources powering different parts of your systems!"
+			]
+			icon: "fluxnetworks:flux_configurator"
+			id: "36DEA17CBB696CC7"
+			min_width: 300
+			rewards: [
+				{
+					count: 4
+					id: "2AC42E9338722803"
+					item: "fluxnetworks:flux_dust"
+					type: "item"
+				}
+				{
+					id: "739E3CA0422DB9F6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "You're a Network Admin Now!"
+			tasks: [{
+				id: "2D0212699F99459F"
+				title: "My First Network"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["36DEA17CBB696CC7"]
+			description: [
+				"With our plug set up, we can now tap into the power from our network. The &9Flux Point&r does exactly that. It points the power from your network to whatever block it is attached to, including pipes or cables, or just directly on machines!"
+				""
+				"Once you've placed your point on the machine or block you want to power, right click on it and select your network in the Network Selection tab. Just like the plug, you can adjust how much power it pulls, priority level, etc."
+			]
+			id: "56B6ABF3D6EA0D84"
+			rewards: [
+				{
+					id: "34498E12E8224864"
+					item: "fluxnetworks:flux_core"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "175D04352F2F6D97"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "36DA068B9758EC94"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "026DE584C4DF393C"
+				item: "fluxnetworks:flux_point"
+				type: "item"
+			}]
+			title: "Accessing Network Power"
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["36DEA17CBB696CC7"]
+			description: [
+				"Flux Networks does provide a way to store the power you generate for your network!"
+				""
+				"These hold massive amounts of power overall, and can be upgraded to store even more!"
+			]
+			id: "79AD74A863EA43CB"
+			rewards: [
+				{
+					id: "6A142D7F593E9DBA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69236C65B496550C"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Storing Power"
+			tasks: [{
+				id: "3C574DDC057353DF"
+				item: "fluxnetworks:basic_flux_storage"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["36DEA17CBB696CC7"]
+			description: [
+				"Right clicking a functional Flux Network block will give you this UI."
+				""
+				"Each Plug or Point can be named, have a custom priority level, and have a custom power transfer limit. This allows complete control over all parts of your system."
+				""
+				"&aPower Surge&r sets the specific point or plug to ignore set priorities within the system."
+				"&aBypass Limit&r ignores the limit set."
+				""
+				"There are several other tabs to check out, mostly for statistics on your network!"
+				""
+			]
+			icon: "fluxnetworks:admin_configurator"
+			id: "2EB7784D5296F410"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "64751B6E2F284585"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3D721B55E8D33FE8"
+				title: "The Flux Networks UI"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["36DEA17CBB696CC7"]
+			description: [
+				"Flux Networks also provides a way to charge your items wirelessly, even across dimensions!"
+				""
+				"Once you have a Plug attached to your power system, you'll want to make the &9Flux Controller&r and place it down."
+				""
+				"Right click to bring up the interface, and go to the \"Wireless Charging\" tab. From here, you can select each section of your inventory you'd like to keep charged. To activate, make sure to hit the toggle at the bottom to Enable Wireless charging, then click apply!"
+				""
+			]
+			id: "27A4FA38992448A0"
+			min_width: 300
+			rewards: [
+				{
+					id: "4D553DA55A83294D"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+				{
+					id: "37E08FCD1F0A3D26"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "013BD44E5E82802A"
+				item: "fluxnetworks:flux_controller"
+				type: "item"
+			}]
+			title: "Wireless Charging"
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1BE26A00A420DAE3"
+				"35CC898E0E49FE58"
+				"79AD74A863EA43CB"
+				"27A4FA38992448A0"
+				"5F078A574A783B02"
+				"56B6ABF3D6EA0D84"
+				"2EB7784D5296F410"
+				"36DEA17CBB696CC7"
+			]
+			id: "793CFF1F3649CE85"
+			rewards: [
+				{
+					id: "1B154972E1876C39"
+					type: "xp"
+					xp: 10000
+				}
+				{
+					command: "/ftbchunks admin extra_claim_chunks @p add 6"
+					id: "233942654EF91C0D"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1B70B4046C1DF975"
+				type: "checkmark"
+			}]
+			title: "Flux It Off!"
+			x: -10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"11D09E918015355C"
+				"48DC9E8E9D21A2FA"
+			]
+			id: "3EE8A63D36B7222A"
+			rewards: [
+				{
+					id: "0B55E70152FF0463"
+					type: "xp"
+					xp: 10000
+				}
+				{
+					command: "/ftbchunks admin extra_claim_chunks @p add 6"
+					id: "06E1058802BC8B1F"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2ACD9612E90EB3D2"
+				type: "checkmark"
+			}]
+			title: "Basic Champ"
+			x: -10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"3EE8A63D36B7222A"
+				"793CFF1F3649CE85"
+			]
+			description: [
+				"&rYou did it! you completed &bBasic Power&f!"
+				""
+				"Note! For Completion you need to complete the following:"
+				"&4Flux It Off"
+				"&1Basic Champ"
+				""
+				"&rThese can all be found while progressing the Basic Power Quests!"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "createaddition:tesla_coil"
+			id: "1DC3495CFF66F6C7"
+			rewards: [
+				{
+					id: "6E22C7B319DBF106"
+					type: "xp"
+					xp: 10000
+				}
+				{
+					command: "/ftbchunks admin extra_claim_chunks @p add 6"
+					id: "3944C56834AD0A08"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 3.5d
+			subtitle: "Done!"
+			tasks: [{
+				id: "740A9ECE9A6BEE2D"
+				type: "checkmark"
+			}]
+			title: "Basic Power Completion"
+			x: -1.75d
+			y: 7.0d
+		}
+	]
+	title: "Basic Power"
+}

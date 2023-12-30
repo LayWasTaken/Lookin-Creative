@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "aiotbotania:livingwood_aiot",
+    "aiotbotania:livingrock_aiot",
+    "aiotbotania:manasteel_aiot",
+    "aiotbotania:elementium_aiot",
+    "aiotbotania:terra_aiot",
+    "aiotbotania:alfsteel_aiot",
+    "apotheosis:weapon_tome",
+    "twilightforest:block_and_chain",
+    "farmersdelight:skillet",
+    "cataclysm:gauntlet_of_guard",
+    "cataclysm:gauntlet_of_bulwark",
+    "cataclysm:the_incinerator",
+    "cataclysm:void_forge",
+    "cataclysm:tidal_claws",
+    "cataclysm:infernal_forge",
+    "cataclysm:meat_shredder"
+  ],
+  "incompatible": []
+}

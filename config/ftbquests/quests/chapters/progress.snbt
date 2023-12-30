@@ -1,0 +1,368 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progress"
+	group: ""
+	id: "43B56A9BA2595969"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 30.0d
+			hover: [ ]
+			image: "ftbquests:textures/tasks/botania_mana_full.png"
+			rotation: 0.0d
+			width: 50.0d
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "kubejs:textures/Logo_Assets/season3_logo.png"
+			rotation: 0.0d
+			width: 28.0d
+			x: -7.5d
+			y: -13.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -21.5d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -16.0d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/Logo_Assets/botania.png"
+			rotation: 0.0d
+			width: 3.8171641791044775d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/Logo_Assets/twilight_forest.png"
+			rotation: 0.0d
+			width: 7.458646616541353d
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/Logo_Assets/basic_power.png"
+			rotation: 0.0d
+			width: 3.090634441087613d
+			x: -16.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/Logo_Assets/create_logo.png"
+			rotation: 0.0d
+			width: 3.5397923875432524d
+			x: -21.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/Logo_Assets/ars_nouveau_logo.png"
+			rotation: 0.0d
+			width: 5.982456140350878d
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/Logo_Assets/applied_energistics_2_logo.png"
+			rotation: 0.0d
+			width: 5.6208791208791204d
+			x: 6.5d
+			y: -1.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6993FC574930F3D2"]
+			id: "3C314F9A0F8DC347"
+			rewards: [
+				{
+					command: "/ftbchunks admin extra_claim_chunks @p add 24"
+					id: "3998621671F209E6"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72124745A3723959"
+					table_id: 7175652334583451871L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "2EC3226EE05BE44E"
+				type: "checkmark"
+			}]
+			x: -21.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1DC3495CFF66F6C7"]
+			id: "39BEE91928FB9CA0"
+			rewards: [
+				{
+					command: "/ftbchunks admin extra_claim_chunks @p add 24"
+					id: "5E695DA957E3A19F"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38E24C897A27768E"
+					table_id: 7175652334583451871L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "6BD4BA6F72B84B99"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4FD7F049007CB8C8"]
+			id: "64C48B2A1BF7FCE8"
+			rewards: [
+				{
+					command: "/ftbchunks admin extra_force_load_chunks @p add 1"
+					id: "0F5811DA499D0D17"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D22A38C5D9C288E"
+					table_id: 7175652334583451871L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "1624C7E47764363B"
+				type: "checkmark"
+			}]
+			title: "Ars Nouveru"
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["73C452C8A4B748F4"]
+			id: "53E2E797401A15D1"
+			rewards: [
+				{
+					command: "/ftbchunks admin extra_force_load_chunks @p add 1"
+					id: "1CDAB9242DEF999A"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "408559E2C40B0D80"
+					table_id: 7175652334583451871L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "1D407FF97FE5EB4C"
+				type: "checkmark"
+			}]
+			title: "Twilight Forest"
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7F7E04240ADB38F6"]
+			id: "1EDFB7376D485BC2"
+			rewards: [
+				{
+					command: "/ftbchunks admin extra_force_load_chunks @p add 1"
+					id: "532D2C5DB604C8E1"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37C6DE9E1C351ED6"
+					table_id: 7175652334583451871L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "347322822861F975"
+				type: "checkmark"
+			}]
+			title: "Botania"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["18FA832DE069852F"]
+			id: "2B6E734451855251"
+			rewards: [
+				{
+					command: "/ftbchunks admin extra_force_load_chunks @p add 1"
+					id: "65FF66D0F7AD019E"
+					silent: true
+					title: "Force Load Chunk x1"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39E009F295E21AD6"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "4EB477B02F34C951"
+				type: "checkmark"
+			}]
+			title: "Applied Energistics 2"
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"The whole point of this board is to show what quests you have completely completed!"
+				""
+				"&4If you manage to complete a questline you will unlock a force load chunk or claim chunks for FTB Chunks"
+			]
+			icon: {
+				Count: 1b
+				id: "avaritia:singularity"
+				tag: {
+					Id: "avaritia:diamond"
+				}
+			}
+			id: "1A4306D281159E44"
+			rewards: [{
+				id: "0509D45082777B9B"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 5.0d
+			tasks: [{
+				id: "13AE75FAAADA2F68"
+				title: "Progress!"
+				type: "checkmark"
+			}]
+			title: "&dProgression Board"
+			x: -7.5d
+			y: -7.5d
+		}
+	]
+	title: "Progress!"
+}

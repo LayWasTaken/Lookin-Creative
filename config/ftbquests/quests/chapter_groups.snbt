@@ -1,3 +1,10 @@
 {
-	chapter_groups: [{ id: "5D483904BEF9BD19", title: "Create Progression!" }]
+	chapter_groups: [
+		{ id: "5D483904BEF9BD19", title: "Create Progression" }
+		{ id: "7AFF8B2D6E1D747C", title: "Power!" }
+		{ id: "545824B40B0F8D94", title: "Ars Nouveau" }
+		{ id: "270739FFE48AFC91", title: "The Twilight Forest" }
+		{ id: "5A2040BC59C7D9B2", title: "Botania" }
+		{ id: "62287D1A2D15FF24", title: "Applied Energistics 2" }
+	]
 }

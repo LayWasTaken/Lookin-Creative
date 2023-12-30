@@ -1,0 +1,263 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_lookin_creative"
+	group: ""
+	icon: "minecraft:diamond_block"
+	id: "2C1CD09D47BDE852"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 20.0d
+			hover: [ ]
+			image: "kubejs:textures/Logo_Assets/blue_drop.png"
+			rotation: 0.0d
+			width: 40.0d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "kubejs:textures/Logo_Assets/season3_logo.png"
+			rotation: 0.0d
+			width: 28.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -13.5d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			click: "https://disboard.org/server/999070782581915648"
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: ["Join The Lookin Creat-ive Discord!"]
+			image: "ars_nouveau:textures/gui/discord_tab.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["If you want to create a team for you and your friends, use the command &a/ftbteams party create (name of team)&r to create the team!"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
+			id: "02D52EE64A4EEE74"
+			rewards: [{
+				id: "5E6877F3996CD27C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 3.0d
+			tasks: [{
+				id: "3D435DC573CF9A3C"
+				title: "Creating a Team"
+				type: "checkmark"
+			}]
+			title: "Creating A New Team!"
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"There Are Some Good Commands To Know That FTB Offers! Now To Name A Few!"
+				""
+				"&e/sethome&r (name of home) | Let's you set a home that you can teleport back to using /home (name). Example: /sethome farm - then teleport with /home farm"
+				""
+				"&e/back&r | If you teleport anywhere or die, you can use /back to teleport back to your previous location."
+				""
+				"&e/spawn&r | This will teleport you to the spawn of your overworld."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/settings.png"
+				}
+			}
+			id: "221F41099AC1F5B0"
+			min_width: 350
+			rewards: [{
+				id: "1B1D44B383DE40A6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 3.0d
+			tasks: [{
+				id: "15EEC45EA0D53FE0"
+				title: "Useful Commands"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"Discover an awesome selection of mods in Lookin Creat-ive, tailor-made for those who enjoy immersive and challenging modpacks!"
+				""
+				"If you're new to modded MC, make sure to check out the &9Getting Started&r, to get going on your first adventure!"
+				""
+				""
+			]
+			icon: {
+				Count: 1b
+				id: "avaritia:singularity"
+				tag: {
+					Id: "avaritia:redstone"
+				}
+			}
+			id: "5011E456B29B5F38"
+			rewards: [{
+				id: "524A93819755DAE0"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 5.0d
+			tasks: [{
+				id: "1847EA39C66E42B7"
+				title: "Welcome To Lookin Creat-ive!"
+				type: "checkmark"
+			}]
+			title: "&dWelcome To Lookin Creat-ive"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"In this modpack, Quests are optional. Mods are not gated behind completing any quests!"
+				""
+				"The individual questlines outside of the Main questline are meant to serve as mod guides. If you want to follow the progression, make sure to check out the Main Questline!"
+				""
+				"Most of the quests in the pack are also made by &2AlfredGG&r. Quests are hard work, so if you'd like to support him, you can click on his player image below!"
+			]
+			icon: "ftbquests:book"
+			id: "6EF7849B779B3751"
+			min_width: 250
+			rewards: [{
+				id: "56C39B1A625C1F94"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 3.0d
+			tasks: [{
+				id: "516E1EBA0E2579AE"
+				title: "Quests"
+				type: "checkmark"
+			}]
+			title: "Quests"
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"To claim chunks, the default key to open the Claim Map is &6M&r."
+				""
+				"To claim a chunk, left click and drag to claim. "
+				""
+				"To force load a chunk, shift-left click the chunk. If done properly, you'll see lines across the chunk."
+			]
+			hide: false
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/waypoint_home.png"
+				}
+			}
+			id: "6F8FEE9B8C721339"
+			rewards: [{
+				id: "301766F54948AE64"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 3.0d
+			tasks: [{
+				id: "0C2A19D492293971"
+				title: "Claiming Chunks"
+				type: "checkmark"
+			}]
+			title: "How To Claim Chunks!"
+			x: 4.5d
+			y: 6.0d
+		}
+	]
+	title: "Welcome To Lookin Creat-ive"
+}
