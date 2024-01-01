@@ -96,7 +96,7 @@
 			dev: false
 			height: 5.0d
 			hover: [ ]
-			image: "kubejs:textures/Logo_Assets/getting_started_part2.png"
+			image: "kubejs:textures/logo_assets/getting_started_part2.png"
 			rotation: 0.0d
 			width: 28.0d
 			x: 20.5d

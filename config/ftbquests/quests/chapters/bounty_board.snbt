@@ -36,7 +36,7 @@
 			dev: false
 			height: 5.0d
 			hover: [ ]
-			image: "kubejs:textures/Logo_Assets/bounty_board.png"
+			image: "kubejs:textures/logo_assets/bounty_board.png"
 			rotation: 0.0d
 			width: 28.0d
 			x: 3.0d

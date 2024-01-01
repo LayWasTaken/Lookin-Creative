@@ -36,7 +36,7 @@
 			dev: false
 			height: 5.0d
 			hover: [ ]
-			image: "kubejs:textures/Logo_Assets/applied_energistics_2_logo.png"
+			image: "kubejs:textures/logo_assets/applied_energistics_2_logo.png"
 			rotation: 0.0d
 			width: 28.0d
 			x: 12.5d

@@ -25,7 +25,7 @@
 			dev: false
 			height: 5.0d
 			hover: [ ]
-			image: "kubejs:textures/Logo_Assets/botania.png"
+			image: "kubejs:textures/logo_assets/botania.png"
 			rotation: 0.0d
 			width: 28.0d
 			x: 5.0d

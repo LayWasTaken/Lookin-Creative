@@ -35,7 +35,7 @@
 			dev: false
 			height: 5.0d
 			hover: [ ]
-			image: "kubejs:textures/Logo_Assets/tips_and_tricks.png"
+			image: "kubejs:textures/logo_assets/tips_and_tricks.png"
 			rotation: 0.0d
 			width: 28.0d
 			x: 1.0d

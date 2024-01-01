@@ -24,7 +24,7 @@
 			dev: false
 			height: 5.0d
 			hover: [ ]
-			image: "kubejs:textures/Logo_Assets/twilight_forest.png"
+			image: "kubejs:textures/logo_assets/twilight_forest.png"
 			rotation: 0.0d
 			width: 28.0d
 			x: -2.5d

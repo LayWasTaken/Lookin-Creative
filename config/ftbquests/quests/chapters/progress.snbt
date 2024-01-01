@@ -23,7 +23,7 @@
 			dev: false
 			height: 5.0d
 			hover: [ ]
-			image: "kubejs:textures/Logo_Assets/season3_logo.png"
+			image: "kubejs:textures/logo_assets/season3_logo.png"
 			rotation: 0.0d
 			width: 28.0d
 			x: -7.5d
@@ -107,7 +107,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "kubejs:textures/Logo_Assets/botania.png"
+			image: "kubejs:textures/logo_assets/botania.png"
 			rotation: 0.0d
 			width: 3.8171641791044775d
 			x: 1.0d
@@ -119,7 +119,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "kubejs:textures/Logo_Assets/twilight_forest.png"
+			image: "kubejs:textures/logo_assets/twilight_forest.png"
 			rotation: 0.0d
 			width: 7.458646616541353d
 			x: -4.5d
@@ -131,7 +131,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "kubejs:textures/Logo_Assets/basic_power.png"
+			image: "kubejs:textures/logo_assets/basic_power.png"
 			rotation: 0.0d
 			width: 3.090634441087613d
 			x: -16.0d
@@ -143,7 +143,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "kubejs:textures/Logo_Assets/create_logo.png"
+			image: "kubejs:textures/logo_assets/create_logo.png"
 			rotation: 0.0d
 			width: 3.5397923875432524d
 			x: -21.5d
@@ -155,7 +155,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "kubejs:textures/Logo_Assets/ars_nouveau_logo.png"
+			image: "kubejs:textures/logo_assets/ars_nouveau_logo.png"
 			rotation: 0.0d
 			width: 5.982456140350878d
 			x: -10.5d
@@ -167,7 +167,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "kubejs:textures/Logo_Assets/applied_energistics_2_logo.png"
+			image: "kubejs:textures/logo_assets/applied_energistics_2_logo.png"
 			rotation: 0.0d
 			width: 5.6208791208791204d
 			x: 6.5d
