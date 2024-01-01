@@ -18,5 +18,4 @@ ServerEvents.highPriorityData(e => {
             requirements: [['impossible']]
         })
     });
-    Java.loadClass('advance')
 });
