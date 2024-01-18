@@ -50,4 +50,5 @@ ServerEvents.recipes(e => {
         R:"netherite_block"
     });
     e.replaceInput({id:'create:mechanical_crafting/ascended_flight_ring'}, 'minecraft:netherite_block', Item.of('enderitemod:enderite_ingot'))
+    e.remove({id:"create:milling/charcoal"});
 })

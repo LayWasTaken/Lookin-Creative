@@ -1,8 +1,19 @@
+global.minerals = [
+    ["copper", 2000, 0xfa977c], 
+    ["iron", 1700, 0xe1e1e1], 
+    ["diamond", 800, 0xa6fce9], 
+    ["coal", 2000, 0x363739], 
+    ["emerald", 1500, 0x7df8ac], 
+    ["gold", 1500, 0xFFD700], 
+    ["redstone", 2000, 0xFf0000],
+    ["lapis", 2000, 0x1b53a7],
+    ["steel", 1400, 0x232323]
+]
 StartupEvents.registry('item', e => {
-    [["copper", 0xfa977c], ["iron", 0xe1e1e1], ["diamond", 0xa6fce9], ["coal", 0x363739], ["emerald", 0x7df8ac], ["gold", 0xFFD700], ["redstone", 0xFf0000]].forEach(v  => {
+    global.minerals.forEach(v  => {
         e.create('incomplete_'+v[0]+'_singularity', 'create:sequenced_assembly')
         .texture("kubejs:item/singularity")
-        .color(0,v[1])
+        .color(0,v[2])
         .rarity('epic');
     });
     e.create('incomplete_botany_pot', 'create:sequenced_assembly')

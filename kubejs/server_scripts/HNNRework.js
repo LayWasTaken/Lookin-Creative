@@ -8,7 +8,6 @@ ServerEvents.highPriorityData(e => {
         value.fabricator_drops.forEach(c => {
             const count = c.get("count");
             if((count % 2) != 0) return;
-            console.log(count, (count % 2) === 0, count % 2)
             c.add("count", count / 2);
         });
         if(key == "hostilenetworks:data_models/artifacts/mimic.json") return e.addJson(key, {});
@@ -36,15 +35,3 @@ ServerEvents.highPriorityData(e => {
         e.addJson(key, value);
     });
 });
-// (key, v) => {
-//     console.log(v)
-//     const fd = v.fabricator_drops;
-//     fd.forEach((d, k) => {
-//         if((d.count % 2) === 0) return;
-//         fd[k ?? 0].count = d.count / 2;
-//     });
-//     v.tier_data.forEach((num, tier) => {
-//         v.tierdata[num] = tier*2;
-//     });
-//     e.addJson(key, v);
-// }
