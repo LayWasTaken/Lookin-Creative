@@ -12,7 +12,7 @@
 	#Range: 8 ~ 64
 	"Sword Attack Range" = 32
 	#Does the right key range attack of endless sword attack neutral creatures
-	"Is Sword Damage" = true
+	"Is Sword Damage" = false
 	#Infinity bow scattering light arrow damage
 	#Range: 100 ~ 100000
 	"Sub Arrow Damage" = 10000
