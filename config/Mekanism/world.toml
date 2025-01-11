@@ -8,7 +8,7 @@ userWorldGenVersion = 0
 #Generation Settings for Tin ore.
 [tin]
 	#Determines if Tin ore should be added to world generation.
-	shouldGenerate = true
+	shouldGenerate = false
 
 	#Small Tin Vein Generation Settings.
 	[tin.small]
@@ -238,7 +238,7 @@ userWorldGenVersion = 0
 #Generation Settings for Uranium ore.
 [uranium]
 	#Determines if Uranium ore should be added to world generation.
-	shouldGenerate = true
+	shouldGenerate = false
 
 	#Small Uranium Vein Generation Settings.
 	[uranium.small]
@@ -424,7 +424,7 @@ userWorldGenVersion = 0
 #Generation Settings for Lead ore.
 [lead]
 	#Determines if Lead ore should be added to world generation.
-	shouldGenerate = true
+	shouldGenerate = false
 
 	#Normal Lead Vein Generation Settings.
 	[lead.normal]
@@ -473,7 +473,7 @@ userWorldGenVersion = 0
 #Generation Settings for salt.
 [salt]
 	#Determines if salt should be added to world generation.
-	shouldGenerate = true
+	shouldGenerate = false
 	#Chance that salt generates in a chunk.
 	# Default: 2
 	# Range: 1 ~ 256

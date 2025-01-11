@@ -1,5 +1,5 @@
 enableNoEmiMessage = true
-spawnWithGuideBook = true
+spawnWithGuideBook = false
 respawnWithGuideBook = true
 disableFuelTooltips = false
 disableItemTagTooltips = true

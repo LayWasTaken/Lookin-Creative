@@ -182,11 +182,11 @@
 	#The maximum RF transmitted per tick to machines and other transmitters
 	# Default: 1000
 	# Range: > 1
-	energy_transmitter_t1_rf_per_tick = 1000
+	energy_transmitter_t1_rf_per_tick = 10000
 	#The energy loss per block distance in percent
 	# Default: 1.0
 	# Range: 0.0 ~ 100.0
-	energy_transmitter_t1_loss_per_block = 1.0
+	energy_transmitter_t1_loss_per_block = 0.5
 
 #Fuel Canister
 [fuel_canister]
@@ -254,7 +254,7 @@
 	#The maximum speed multiplier that can be applied using a Time Wand. This value should be a power of two.
 	time_wand_max_multiplier = 256
 	#Can fake players use the Time Wand (Like in the clickers)?
-	time_wand_fake_player_allowed = true
+	time_wand_fake_player_allowed = false
 
 #Polymorphic Wand
 [polymorphic_wand]

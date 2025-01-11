@@ -2,9 +2,11 @@
   "mod_priorities": [
     "minecraft",
     "kubejs",
-    "immersiveengineering",
+    "modern_industrialization",
     "mekanism",
-    "modern_industrialization"
+    "occultism",
+    "immersiveengineering",
+    "bigreactors"
   ],
   "priority_overrides": {},
   "stone_variants": [
