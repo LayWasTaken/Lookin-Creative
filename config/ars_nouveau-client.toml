@@ -48,11 +48,7 @@
 	#If the Storage Lectern should show the recipe book icon
 	showRecipeBook = true
 	#Inform the player of Dynamic lights once.
-<<<<<<< HEAD
-	informLights = true
-=======
 	informLights = false
->>>>>>> b5bc0990986f492ab643965a3fc74fc820135c26
 	#Whether the Selection HUD is toggled or held
 	toggleSelectionHUD = true
 

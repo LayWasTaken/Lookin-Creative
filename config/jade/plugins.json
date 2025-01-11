@@ -136,12 +136,9 @@
     "dim_block_base": true,
     "dim_tank": true
   },
-<<<<<<< HEAD
   "tombstone": {
     "graves": true
   },
-=======
->>>>>>> b5bc0990986f492ab643965a3fc74fc820135c26
   "jade_access": {
     "held_item": true,
     "sign": true,
@@ -149,7 +146,6 @@
     "entity": true,
     "entity_variant": true
   },
-<<<<<<< HEAD
   "pneumaticcraft": {
     "pneumatic": true,
     "tube_module": true,
@@ -158,8 +154,6 @@
     "camo": true,
     "semiblock": true
   },
-=======
->>>>>>> b5bc0990986f492ab643965a3fc74fc820135c26
   "apotheosis": {
     "adventure": true
   },
@@ -167,12 +161,9 @@
     "overclock": true,
     "pipe": true
   },
-<<<<<<< HEAD
   "lootr": {
     "info": true
   },
-=======
->>>>>>> b5bc0990986f492ab643965a3fc74fc820135c26
   "apothic_enchanting": {
     "ench": true
   },
@@ -196,7 +187,6 @@
   "modularrouters": {
     "router": true
   },
-<<<<<<< HEAD
   "ars_nouveau": {
     "mob_jar": true
   },
@@ -217,19 +207,5 @@
     "infused_farmland": true,
     "crop": true,
     "inferium_crop": true
-=======
-  "xycraft": {
-    "tank_component": true,
-    "extractor_component": true
-  },
-  "ars_nouveau": {
-    "mob_jar": true
-  },
-  "supplementaries": {
-    "hat_stand": true
-  },
-  "corpse": {
-    "corpse": true
->>>>>>> b5bc0990986f492ab643965a3fc74fc820135c26
   }
 }
