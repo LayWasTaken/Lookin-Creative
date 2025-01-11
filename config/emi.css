@@ -22,11 +22,14 @@
 	index-source: creative;
 
 	/**
+<<<<<<< HEAD
 	 * Which sidebar should be searched using the search bar.
 	 */
 	search-sidebar: right;
 
 	/**
+=======
+>>>>>>> b5bc0990986f492ab643965a3fc74fc820135c26
 	 * Whether normal search queries should include the tooltip.
 	 */
 	search-tooltip-by-default: true;

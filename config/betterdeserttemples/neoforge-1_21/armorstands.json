@@ -1,15 +1,25 @@
 {
   "armoryHelmets": {
     "entries": {
+<<<<<<< HEAD
       "minecraft:chainmail_helmet": 0.3,
       "minecraft:golden_helmet": 0.2
+=======
+      "minecraft:golden_helmet": 0.2,
+      "minecraft:chainmail_helmet": 0.3
+>>>>>>> b5bc0990986f492ab643965a3fc74fc820135c26
     },
     "defaultItem": "minecraft:air"
   },
   "wardrobeHelmets": {
     "entries": {
+<<<<<<< HEAD
       "minecraft:chainmail_helmet": 0.2,
       "minecraft:leather_helmet": 0.4
+=======
+      "minecraft:leather_helmet": 0.4,
+      "minecraft:chainmail_helmet": 0.2
+>>>>>>> b5bc0990986f492ab643965a3fc74fc820135c26
     },
     "defaultItem": "minecraft:air"
   },
@@ -29,22 +39,37 @@
   },
   "armoryLeggings": {
     "entries": {
+<<<<<<< HEAD
       "minecraft:golden_leggings": 0.2,
       "minecraft:chainmail_leggings": 0.3
+=======
+      "minecraft:chainmail_leggings": 0.3,
+      "minecraft:golden_leggings": 0.2
+>>>>>>> b5bc0990986f492ab643965a3fc74fc820135c26
     },
     "defaultItem": "minecraft:air"
   },
   "wardrobeLeggings": {
     "entries": {
+<<<<<<< HEAD
       "minecraft:leather_leggings": 0.4,
       "minecraft:chainmail_leggings": 0.2
+=======
+      "minecraft:chainmail_leggings": 0.2,
+      "minecraft:leather_leggings": 0.4
+>>>>>>> b5bc0990986f492ab643965a3fc74fc820135c26
     },
     "defaultItem": "minecraft:air"
   },
   "armoryBoots": {
     "entries": {
+<<<<<<< HEAD
       "minecraft:chainmail_boots": 0.3,
       "minecraft:golden_boots": 0.2
+=======
+      "minecraft:golden_boots": 0.2,
+      "minecraft:chainmail_boots": 0.3
+>>>>>>> b5bc0990986f492ab643965a3fc74fc820135c26
     },
     "defaultItem": "minecraft:air"
   },
