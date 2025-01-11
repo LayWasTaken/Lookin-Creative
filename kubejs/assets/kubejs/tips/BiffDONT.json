@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Shenanigans",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Biff did you just broke the server with a stick?"
+    }
+}
