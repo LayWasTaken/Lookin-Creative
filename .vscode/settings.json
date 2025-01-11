@@ -1,0 +1,19 @@
+{
+    "files.exclude": {
+        "mods": true,
+        "downloads": true,
+        "ESM": true,
+        "moddata": true,
+        "shaderpacks": true,
+        "patchouli_data.json": true,
+        "resourcepacks": true,
+        "local": true,
+        "minecraftinstance.json": true,
+        "realms_persistence.json": true,
+        "usercache.json": true,
+        ".curseclient": true,
+        "usernamecache.json": true,
+        "patchouli_books": true,
+        ".mixin.out": true
+    }
+}
