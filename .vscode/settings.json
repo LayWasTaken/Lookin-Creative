@@ -15,5 +15,14 @@
         "usernamecache.json": true,
         "patchouli_books": true,
         ".mixin.out": true
-    }
+    },
+    "typescript.tsserver.maxTsServerMemory": 4096,
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/recipe_schemas/*.json"
+            ],
+            "url": "./.vscode/recipe.json"
+        }
+    ]
 }
