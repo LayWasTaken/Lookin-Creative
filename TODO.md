@@ -7,18 +7,18 @@
 ## Quests
 - [ ] Getting Started
 
-## Recipe Add/Remove/Change
-{+} **Add** Recipe
-{-} **Remove** Recipe
-{/} **Neutral** Change
-{+/} **Positive/Buff** Change
-{-/} **Negative/Nerf** change
-- [ ] RFTools Builder block {+/}
+## Recipes
+### Remove
+### Add
 - [ ] Most Gateways to Eternity {+}
-- [ ] Mekanism Metallurgic Infuser {-/}
+### Change
+{+} **Positive/Buff**
+{-} **Negative/Nerf**
+- [ ] RFTools Builder block {+}
+- [ ] Mekanism Metallurgic Infuser {-}
     + Must come after Immersive Engineering
-- [ ] Mekanism Atomic Disassembler {-/}
-- [ ] Heavy Crushing {/}
+- [ ] Mekanism Atomic Disassembler {-}
+- [ ] Heavy Crushing {-}
     + **Crushing Items will be crushed only in the IE Crusher**
     + Sky Stone
     + Crushed Singularity
