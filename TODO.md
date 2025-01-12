@@ -24,7 +24,10 @@
 
 ## Recipes
 ### Remove
+<<<<<<< HEAD
 - [ ] Uncrafting Table
+=======
+>>>>>>> 02eedefebc6ac2658ab4714c32df146082937255
 ### Add
 - [ ] Most Gateways to Eternity {+}
 ### Change
