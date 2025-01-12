@@ -1,5 +1,5 @@
 # Lookin-Creative
 
-A minecraft modpack made for the Looking-Creative Server
+<a href="https://discord.gg/v8KMtD3wAC"><img src="https://img.shields.io/discord/999070782581915648?label=discord&color=7289DA&logo=discord" alt="Discord" /></a>
 
-<iframe src="https://discord.com/widget?id=999070782581915648&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+A minecraft modpack made for the Looking-Creative Server
