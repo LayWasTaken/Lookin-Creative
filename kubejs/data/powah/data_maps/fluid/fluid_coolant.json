@@ -1,0 +1,13 @@
+{
+    "values": {
+       "#c:water": {
+            "temperature": 1
+      },
+        "modern_industrialization:cryofluid": {
+            "temperature": 50
+      },
+        "advanced_ae:quantum_infusion_source": {
+            "temperature": 25
+      }
+    }
+  }

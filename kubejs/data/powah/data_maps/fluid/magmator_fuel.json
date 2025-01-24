@@ -1,0 +1,17 @@
+{
+    "values": {
+        "#c:lava": {
+          "energy_produced": 10000
+        },
+        "justdirethings:refined_t2_fluid_source": {
+            "energy_produced": 20000
+        },
+        "justdirethings:refined_t3_fluid_source": {
+            "energy_produced": 30000
+        },
+        "justdirethings:refined_t4_fluid_source": {
+            "energy_produced": 50000
+        }
+        
+    }
+}

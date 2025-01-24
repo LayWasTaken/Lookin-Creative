@@ -1,0 +1,31 @@
+{
+    "values": {
+        "#c:lava": {
+            "temperature": 1000
+        },
+        "justdirethings:refined_t2_fluid_source": {
+            "temperature": 2000
+        },
+        "justdirethings:refined_t3_fluid_source": {
+            "temperature": 3000
+        },
+        "justdirethings:refined_t4_fluid_source": {
+            "temperature": 5000
+        },
+        "mysticalagradditions:molten_inferium": {
+            "temperature": 6000
+        },
+        "mysticalagradditions:molten_prudentium": {
+            "temperature": 7000
+        },
+        "mysticalagradditions:molten_tertium": {
+            "temperature": 8000
+        },
+        "mysticalagradditions:molten_imperium": {
+            "temperature": 9000
+        },
+        "mysticalagradditions:molten_supremium": {
+            "temperature": 10000
+        }
+    }
+}
