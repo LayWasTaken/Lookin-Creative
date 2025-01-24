@@ -2,11 +2,10 @@
 
 ## General
 - [ ] Change Main Menu 
-- [ ] Fix any conflicts
+- [ ] Fix any conflicts/unify
 - [ ] Replace Coal Coke from IE with Coal Coke from MI
 - [ ] Add 2 new minerals(Name Unknown)
-- [ ] Add an Endgame Item(Godly Like, Name Unknown),
-- [ ] Add a Teserract Like Item as the final Item
+- [ ] Add an Endgame Item(Godly Like, Name Unknown)
 - [ ] Add Unstabilized and Stabilize Chaos Item
 - [ ] Add a Grim Scythe Item 
 - [ ] Add a Butter Knife
@@ -18,26 +17,36 @@
 - [ ] Add the Essence of the Engineer
 - [ ] Add the Essence of the Wizard
 - [ ] Add the Soul of the Fallen
+- [ ] Change Apotheosis Spawner's Upgrade Item
+- [ ] Add the Infinity Forge
 
 ## Quests
 - [ ] Getting Started
 
 ## Recipes
 ### Remove
-<<<<<<< HEAD
-- [ ] Uncrafting Table
-=======
->>>>>>> 02eedefebc6ac2658ab4714c32df146082937255
+- [x] Uncrafting Table
+- [ ] Quantum Armor & Sword(MI)
+- [ ] Mystical Agriculture unused essences & seeds
 ### Add
 - [ ] Most Gateways to Eternity {+}
+- [x] Molten Tiers Of Mystical Agriculture
 ### Change
 {+} **Positive/Buff**
 {-} **Negative/Nerf**
-- [ ] RFTools Builder block {+}
-- [ ] Mekanism Metallurgic Infuser {-}
+- [x] RFTools Builder block {+}
+- [x] Mekanism Metallurgic Infuser {-}
     + Must come after Immersive Engineering
-- [ ] Mekanism Atomic Disassembler {-}
-- [ ] Heavy Crushing {-}
-    + **Crushing Items will be crushed only in the IE Crusher**
-    + Sky Stone
-    + Crushed Singularity
+- [x] Mekanism Atomic Disassembler {-}
+- [ ] Eternal Stella {-}
+- [ ] Instant Break Upgrade(Just Dire Things) {-}
+- [ ] Quantum Armor(Advance AE) {-}
+- [ ] Mekasuit {-}
+- [ ] Snad {-}
+- [ ] Replace all mineral seeds (e.g. iron seed) singular mineral with their block form (e.g. iron block instead of iron ingot in recipe) 
+- [ ] Entangled Block {-}
+- [ ] Fertilized Lily {-}
+- [ ] Cardboard Box(Mekanism) {-}
+- [X] Geore Shard -> Mineral {+}
+- [ ] ShadowPulse also uses Echo Shards (Just Dire Things) {+}
+- [X] Polymorphic Fluid (Just Dire Things) {-}

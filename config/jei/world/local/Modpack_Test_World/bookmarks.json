@@ -1,0 +1,10 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"mysticalagradditions:molten_supremium"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mysticalagradditions:molten_imperium"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mysticalagradditions:molten_tertium"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mysticalagradditions:molten_prudentium"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mysticalagradditions:molten_inferium"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"industrialforegoing:ether_gas"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modern_industrialization:uu_matter"},"type":"fluid_stack","bookmarkType":"INGREDIENT"}
+]

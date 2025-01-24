@@ -85,21 +85,6 @@
     "crafting_monitor": true,
     "part_name": true
   },
-  "extendedcrafting": {
-    "elite_auto_table": true,
-    "ender_crafter": true,
-    "basic_auto_table": true,
-    "flux_crafter": true,
-    "advanced_table": true,
-    "auto_ender_crafter": true,
-    "ultimate_table": true,
-    "ultimate_auto_table": true,
-    "elite_table": true,
-    "basic_table": true,
-    "crafting_core": true,
-    "advanced_auto_table": true,
-    "compressor": true
-  },
   "mekanism": {
     "chemical": true,
     "remove_builtin": true,
@@ -127,6 +112,9 @@
     "sink": true,
     "milk_jar": true,
     "toaster": true
+  },
+  "toms_trading_network": {
+    "vending_machine": true
   },
   "framedblocks": {
     "framed_item_frame": true,
@@ -186,6 +174,10 @@
   },
   "modularrouters": {
     "router": true
+  },
+  "xycraft": {
+    "tank_component": true,
+    "extractor_component": true
   },
   "ars_nouveau": {
     "mob_jar": true
